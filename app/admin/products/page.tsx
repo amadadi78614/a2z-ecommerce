@@ -22,7 +22,7 @@ export default async function AdminProductsPage() {
             </tr>
           </thead>
           <tbody>
-            {products.map((p) => (
+            {products.map((p: any) => (
               <tr key={p.id} className="border-b border-white/5">
                 <td className="py-2 pr-4">{p.name}</td>
                 <td className="py-2 pr-4">R{(p.priceCents / 100).toFixed(2)}</td>
