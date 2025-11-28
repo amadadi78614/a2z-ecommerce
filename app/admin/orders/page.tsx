@@ -20,7 +20,7 @@ export default async function AdminOrdersPage() {
             </tr>
           </thead>
           <tbody>
-            {orders.map((o) => (
+            {orders.map((o: any) => (
               <tr key={o.id} className="border-b border-white/5">
                 <td className="py-2 pr-4">{o.id}</td>
                 <td className="py-2 pr-4">{o.status}</td>
