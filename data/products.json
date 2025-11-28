@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Phone Case",
+    "slug": "premium-phone-case",
+    "description": "High-quality silicone case.",
+    "priceCents": 19900,
+    "oldPriceCents": 24900,
+    "brand": "Generic",
+    "stock": 15,
+    "images": ["/logo.jpg"]
+  },
+  {
+    "id": "2",
+    "name": "Fast Charger 25W",
+    "slug": "fast-charger-25w",
+    "description": "Compatible with Samsung and Huawei.",
+    "priceCents": 14900,
+    "oldPriceCents": 19900,
+    "brand": "Generic",
+    "stock": 30,
+    "images": ["/logo.jpg"]
+  }
+]

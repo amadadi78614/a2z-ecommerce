@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b101a;
+}
+
+body {
+  @apply bg-brandDark text-white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-soft rounded-2xl;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold bg-brandYellow text-brandDark hover:bg-yellow-300 transition;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold bg-brandRed text-white hover:bg-red-500 transition;
+}
+
+.badge-pill {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-white/10 text-white;
+}
